@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_game {
+  font-family: 'Pacifico', cursive;
+}
+
+.status {
+  margin-bottom: 10px;
+  min-width: 140px;
+}
+
+.status h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.board-row {
+  display: flex;
+  gap: 8px;
+}
+
+.square {
+  background: #2d2d2d;
+  border-radius: 4px;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.reload_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  height: 40px;
+}
+
+.reload_icon {
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+}
